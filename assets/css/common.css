@@ -1,0 +1,171 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #027E82;
+    font-size: 16px;
+}
+.navbar-dark .navbar-nav .active {
+    color: var(--red) !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--red);
+}
+#navbarNavDropdown.show {
+    padding-bottom: 20px;
+}
+.navbar-dark .navbar-toggler {
+    color: #027E82;
+}
+ 
+.shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  }
+}
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button {
+    cursor: pointer;
+}
+.navbar {
+    border-bottom: 3px solid #2D9CDB;
+}
+a, a:hover,a:visited, a:focus {
+    text-decoration:none !important;
+}
+/*---------pf color-----------*/
+
+.bg-pf-dblue {
+    background-color: #003259;
+}
+.txt-pf-dblue {
+    color: #003259;
+}
+.bg-pf-lred {
+    background-color: #FF0000;
+}
+.txt-pf-lred {
+    color: #FF0000;
+}
+.bg-pf-blue {
+    background-color: #0276B7;
+}
+.txt-pf-lgreen {
+    color: #10a043;
+}
+.txt-pf-dgreen {
+    color: #027E82;
+}
+.txt-pf-orange{
+    color: #ff7b1d;
+}
+.bb-3-dgreen {
+    border-bottom: 2px solid #027E82;
+}
+.br-4 {
+    border-radius: 4px;
+}
+.br-25 {
+    border-radius: 25px;
+}
+.br-50 {
+    border-radius: 50px;
+}
+.br-100 {
+    border-radius: 100px;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.txt-70 {
+	font-size: 70px;
+	font-weight: 730;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+
+.profile-img {
+	border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.desig {
+	text-align: center;
+    border-top: 1px solid #fffefe59;
+    border-bottom: 1px solid #fffefe59;
+	list-style-type: none;
+	padding-top: 7px;
+	padding-bottom: 5px;
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sub-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about_section, .blog_section, .portfolio_section {
+    background-color: #e8e8e8;
+}
+.skills_section {
+    background-color: #3b5c7a;
+}
+.footer {
+    background-color: #023e58;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.btn-df {
+    width: 100%;
+    max-width: 200px;
+    background-color: #027e82;
+    color: white !important;
+    margin: 5px;
+    box-shadow: 0px 2px 5px 1px darkgrey;
+}
+.btn-df:hover {
+    color: white !important;
+    //background: #0678b9;
+	background: #e91e63;
+}
+.btn-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white !important;
+    background-color: #027e82;
+    margin: 10px 20px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px 1px #fff;
+}
+.btn-link:hover {
+    color: white !important;
+	background: #e91e63;
+}
+.left-icon {
+    font-size: 40px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+}
+input, textarea {
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+}
+input {
+    height: 40px;
+}
+textarea {
+    height: 150px;
+}
