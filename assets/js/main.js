@@ -435,6 +435,7 @@
       const b = e.target.closest(".filter");
       if (!b) return;
       $$(".filter", filters).forEach((x) => { x.classList.toggle("active", x === b); x.setAttribute("aria-selected", x === b); });
+      b.scrollIntoView({ inline: "nearest", block: "nearest", behavior: REDUCED ? "auto" : "smooth" });
       const f = b.dataset.filter;
       $$("#projectsGrid .work-card, #projectsArchive .archive-row").forEach((el) => {
         el.classList.toggle("is-hidden", !(f === "*" || el.dataset.cat === f));
